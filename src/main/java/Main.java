@@ -3,8 +3,10 @@ public class Main {
         Student student = new Student("Eva", 27, "1230");
         System.out.println(student);
 
-        System.out.println("Hello " + student.name());
+        Student student2 = new Student("Chiara", 29, "1456");
+        System.out.println(student2);
 
+        System.out.println("Hello " + student.name());
 
     }
 }
